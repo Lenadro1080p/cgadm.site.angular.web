@@ -13,6 +13,8 @@ import { MinistriesComponent } from './ministries/ministries.component';
 import { CallUsComponent } from './call-us/call-us.component';
 import { OurBlogComponent } from './our-blog/our-blog.component';
 import { EndPageComponent } from './end-page/end-page.component';
+import { DiretoriaComponent } from './diretoria/diretoria.component';
+import { Player2Component } from './player2/player2.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { EndPageComponent } from './end-page/end-page.component';
     MinistriesComponent,
     CallUsComponent,
     OurBlogComponent,
-    EndPageComponent
+    EndPageComponent,
+    DiretoriaComponent,
+    Player2Component
   ],
   imports: [
     BrowserModule,
