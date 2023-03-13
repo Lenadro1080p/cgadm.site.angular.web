@@ -41,6 +41,9 @@
     font-size: 25px;
     color: #8d9297;
     font-weight: 400;
+    span {
+        color: #000000;
+    }
 }
 
 .icones-sobre img {
@@ -52,13 +55,17 @@
 .button-sobre button {
     padding: 9px 32px;
     font-size: 17px;
-    margin-top: 20px;
+    margin-top: auto;
     margin-bottom: 100px;
 }
 
 .font-poppins {
     font-family: 'Poppins';
     color: #8d9297;
+    span {
+        color: #000000;
+        font-weight: 600;
+    }
 
 }
 
