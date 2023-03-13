@@ -36,6 +36,8 @@
 }
 
 .logo img {
+    position: relative;
+    top: -5px;
     width: 190px;
     padding: 10px;
 }
@@ -129,6 +131,7 @@
     img {
         width: 140px;
         margin-left: 60px;
+        padding: 10px 0;
     }
 }
 
