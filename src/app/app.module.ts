@@ -15,6 +15,7 @@ import { OurBlogComponent } from './our-blog/our-blog.component';
 import { EndPageComponent } from './end-page/end-page.component';
 import { DiretoriaComponent } from './diretoria/diretoria.component';
 import { Player2Component } from './player2/player2.component';
+import { RadioComponent } from './radio/radio.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { Player2Component } from './player2/player2.component';
     OurBlogComponent,
     EndPageComponent,
     DiretoriaComponent,
-    Player2Component
+    Player2Component,
+    RadioComponent
   ],
   imports: [
     BrowserModule,

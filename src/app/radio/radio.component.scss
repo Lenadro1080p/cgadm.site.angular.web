@@ -1,0 +1,16 @@
+body {
+    background: #021327;
+    color: #ffffff;
+    margin: 0px auto;
+    overflow: hidden; 
+    span {
+        font-family: 'Poppins';
+        font-size: 15px;
+        position: relative;
+        bottom: -4px;
+    }
+    img {
+        position: relative;
+        bottom: -2px;
+    }
+}
