@@ -1,16 +1,17 @@
-<div class="container conteudo">
+<div id="noticias"></div>
+
+<div class="container blog">
 
     <div class="out-ministries">
-        <h6>MINISTRIES</h6>
-        <h2>Our Ministries</h2>
+        <h6>BLOG</h6>
+        <h2>NOTICIAS</h2>
         <img src="../../assets/img/icones/linha-vemalhar-centro-branco.png" alt="">
     </div>
 
-    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
-        (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)" (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
         
-        <div ngxSlickItem *ngFor="let slide of slides" class="slides-1 ">
-            <div class="container-slider-single ">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-1">
+            <div class="container-slider-single">
                 <div class="card poster">
                     <img src="https://elementor.zozothemes.com/zegen/wp-content/uploads/sites/2/2019/10/childrens_ministry-1.jpg"
                         class="card-img-top" alt="...">
