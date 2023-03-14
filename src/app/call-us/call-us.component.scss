@@ -76,15 +76,39 @@
 .informacoes-banner h2{
     margin-top: 40px;
     color: #ffffff;
+    font-size: 28px;
     font-family: 'Poppins';
     font-weight: 700;
 }
 
 .informacoes-banner p{
-    
     color: #ffffff;
     font-family: 'Poppins';
     font-weight: 400;
+}
+
+.informacoes-banner img{
+    
+    margin-bottom: 22px;
+}
+
+.email {
+    margin-top: 17px;
+}
+
+.font {
+    p {
+        margin-bottom: 1px;
+    }
+}
+
+.conteudo-quadrado {
+    img {
+        width: 50px;
+    }
+    p {
+        font-size: 20px;
+    }
 }
 
 
