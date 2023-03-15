@@ -16,6 +16,7 @@ import { EndPageComponent } from './end-page/end-page.component';
 import { DiretoriaComponent } from './diretoria/diretoria.component';
 import { Player2Component } from './player2/player2.component';
 import { RadioComponent } from './radio/radio.component';
+import { BlogPostComponent } from './our-blog/blog-post/blog-post.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { RadioComponent } from './radio/radio.component';
     EndPageComponent,
     DiretoriaComponent,
     Player2Component,
-    RadioComponent
+    RadioComponent,
+    BlogPostComponent
   ],
   imports: [
     BrowserModule,
