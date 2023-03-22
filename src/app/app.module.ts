@@ -9,12 +9,10 @@ import { BannerComponent } from './shared/banner/banner.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { EventsComponent } from './events/events.component';
 import { PlayerComponent } from './player/player.component';
-import { MinistriesComponent } from './ministries/ministries.component';
 import { CallUsComponent } from './call-us/call-us.component';
 import { OurBlogComponent } from './our-blog/our-blog.component';
 import { EndPageComponent } from './end-page/end-page.component';
 import { DiretoriaComponent } from './diretoria/diretoria.component';
-import { Player2Component } from './player2/player2.component';
 import { RadioComponent } from './radio/radio.component';
 import { BlogPostComponent } from './our-blog/blog-post/blog-post.component';
 
@@ -27,12 +25,10 @@ import { BlogPostComponent } from './our-blog/blog-post/blog-post.component';
     AboutUsComponent,
     EventsComponent,
     PlayerComponent,
-    MinistriesComponent,
     CallUsComponent,
     OurBlogComponent,
     EndPageComponent,
     DiretoriaComponent,
-    Player2Component,
     RadioComponent,
     BlogPostComponent
   ],

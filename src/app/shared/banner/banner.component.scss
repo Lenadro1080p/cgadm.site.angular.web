@@ -55,24 +55,6 @@
     height: 800px;
 }
 
-.imagem-banner-1-mobile {
-    background-image: url(../../../assets/img/banner/banner-carrossel.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 650px;
-}
-
-.imagem-banner-2-mobile {
-    background-image: url(../../../assets/img/banner/banner-caroussel-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 650px;
-}
-
 .botao-carrossel-voltar button {
     background-color: #0f0f10;
     width: 70px;
@@ -109,21 +91,9 @@
     border-radius: 100%;
 }
 
-.botao-v {
-    background-color: #ffffff;
-    width: 50px;
-    height: 50px;
-}
-
 .espaco-conteudo {
     background-color: #0f0f10;
     z-index: -1;
-}
-
-.espaco-conteudo-mobile {
-    background-color: #0f0f10;
-    z-index: -1;
-    height: 650px;
 }
 
 .apresentacao {
@@ -149,29 +119,20 @@
     }
 }
 
-.apresentacao-header-2 {
-    padding: 250px 0%;
+.h2-mobile {
+    h2 {
+        font-size: 25px;
+    }
 }
 
-.apresentacao-header-2 h6 {
-    font-size: 21px;
-    color: #bf0a30;
-    margin: 15px auto;
+.p-mobile {
+    p {
+        font-size: 18px;
+    }
 }
 
-.apresentacao-header-2 img {
-    width: 100px;
-}
-
-.apresentacao-header-2 h2 {
-    margin-top: 35px;
-    font-size: 25px;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-.apresentacao-header-2 p {
-    font-size: 18px;
-    font-weight: 400;
-    color: #ffffff;
+.button-mobile {
+    button {
+        margin-bottom: -40px;
+    }
 }
