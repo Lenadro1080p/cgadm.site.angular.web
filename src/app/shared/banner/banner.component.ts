@@ -9,6 +9,6 @@ import * as AOS from 'aos';
 export class BannerComponent {
   ngOnInit() {
     AOS.init();
-    window.addEventListener('load',AOS.refresh)
+    window.addEventListener('load',AOS.refresh);
   }
 }
