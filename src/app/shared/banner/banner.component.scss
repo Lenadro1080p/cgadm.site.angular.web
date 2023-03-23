@@ -56,7 +56,7 @@
 }
 
 .botao-carrossel-voltar button {
-    background-color: #0f0f10;
+    background-color: #0f0f105f;
     width: 70px;
     height: 70px;
     margin-top: 370px;
@@ -64,8 +64,12 @@
     border-radius: 100%;
 }
 
+.botao-carrossel-voltar button:hover {
+    background-color: #0f0f10bd;
+}
+
 .botao-carrossel-avancar button {
-    background-color: #0f0f10;
+    background-color: #0f0f104e;
     width: 70px;
     height: 70px;
     margin-right: 16%;
@@ -73,22 +77,8 @@
     border-radius: 100%;
 }
 
-.botao-carrossel-voltar-mobile button {
-    background-color: #0f0f10;
-    width: 70px;
-    height: 70px;
-    margin-left: 100px;
-    margin-top: 370px;
-    border-radius: 100%;
-}
-
-.botao-carrossel-avancar-mobile button {
-    background-color: #0f0f10;
-    width: 70px;
-    height: 70px;
-    margin-right: 100px;
-    margin-top: 370px;
-    border-radius: 100%;
+.botao-carrossel-avancar button:hover {
+    background-color: #0f0f10bd;
 }
 
 .espaco-conteudo {
@@ -134,6 +124,5 @@
 .button-mobile {
     button {
         margin-bottom: -100px;
-        margin-top: 10px;
     }
 }
