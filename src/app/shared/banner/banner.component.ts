@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-banner',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent {
-
+  ngOnInit() {
+    AOS.init();
+    window.addEventListener('load',AOS.refresh)
+  }
 }

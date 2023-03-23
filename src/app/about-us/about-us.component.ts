@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-about-us',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-us.component.scss']
 })
 export class AboutUsComponent {
-
+  ngOnInit() {
+    AOS.init();
+    window.addEventListener('load',AOS.refresh)
+  }
 }

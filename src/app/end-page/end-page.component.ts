@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-end-page',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./end-page.component.scss']
 })
 export class EndPageComponent {
-
+  ngOnInit() {
+    AOS.init();
+    window.addEventListener('load',AOS.refresh)
+  }
 }

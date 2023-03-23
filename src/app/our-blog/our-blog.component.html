@@ -11,7 +11,7 @@
     <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
         (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
 
-        <div ngxSlickItem *ngFor="let slide of slides" class="slides-1">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slides-1" >
             <div class="container-slider-single">
                 <div class="card poster">
                     <a href="/blogpost">
@@ -88,3 +88,5 @@
         </div>
     </ngx-slick-carousel>
 </div>
+
+

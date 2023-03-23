@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-our-blog',
@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class OurBlogComponent {
   title = 'Site';
+
   slides = [
     { img: 'container' },
   ];
@@ -16,7 +17,8 @@ export class OurBlogComponent {
   slid = [
     { img: 'container' },
   ];
-  slideConfig = { dots: true,
+  slideConfig = {
+    dots: true,
     arrows: false,
     speed: 600,
     slidesToShow: 3,
@@ -38,7 +40,7 @@ export class OurBlogComponent {
           slidesToScroll: 2
         }
       }
-    ], 
+    ],
   };
   addSlide() {
     this.slides.push({ img: 'http://placehold.it/350x150/' });
@@ -58,6 +60,6 @@ export class OurBlogComponent {
   beforeChange(e: any) {
     console.log('beforeChange');
   }
-  constructor() {}
-  ngOnInit(): void {}
+  constructor() { }
+  ngOnInit(): void { }
 }

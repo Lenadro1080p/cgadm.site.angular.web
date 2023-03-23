@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-events',
@@ -6,6 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./events.component.scss']
 })
 export class EventsComponent {
+  
   title = 'Site';
   slides = [
     { img: 'container' },
@@ -32,6 +34,10 @@ export class EventsComponent {
         }
       }
     ], 
+    ngOnInit() {
+      AOS.init();
+      window.addEventListener('load',AOS.refresh)
+    }
   };
   addSlide() {
     this.slides.push({ img: 'http://placehold.it/350x150/' });
