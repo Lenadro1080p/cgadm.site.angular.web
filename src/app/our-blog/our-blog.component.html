@@ -2,14 +2,14 @@
 
 <div class="container blog">
 
-    <div class="out-ministries">
+    <div class="out-ministries" data-aos="zoom-in" data-aos-duration="2000">
         <h6>BLOG</h6>
         <h2>NOTICIAS</h2>
         <img src="../../assets/img/icones/linha-vemalhar-centro-branco.png" alt="">
     </div>
 
     <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
-        (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+        (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)" data-aos="fade-right" data-aos-duration="1600" data-aos-easing="ease-in-sine">
 
         <div ngxSlickItem *ngFor="let slide of slides" class="slides-1" >
             <div class="container-slider-single">
