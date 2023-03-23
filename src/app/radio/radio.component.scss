@@ -15,5 +15,20 @@ body {
     }
 }
 
+.text-center ul {
+    text-align: center;
 
+}
 
+.text-center li {
+    display: inline-block;
+}
+
+#player-musica {
+    a {
+        color: #ffffff;
+    }
+    a:hover {
+        color: #c31818;
+    }
+}
