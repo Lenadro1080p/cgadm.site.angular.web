@@ -1,12 +1,10 @@
-/* Works on Firefox */
 * {
     scrollbar-width: thin;
     scrollbar-color: rgb(0, 0, 0) rgb(255, 255, 254);
 }
 
-/* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-    width: 12px;
+    width: 13px;
 }
 
 *::-webkit-scrollbar-track {
